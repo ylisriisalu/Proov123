@@ -1,0 +1,766 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetbreg" targetNamespace="http://tempuri.org/DataSetbreg.xsd" xmlns:mstns="http://tempuri.org/DataSetbreg.xsd" xmlns="http://tempuri.org/DataSetbreg.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="3" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="bregConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bregConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Proov123.Properties.Settings.GlobalReference.Default.bregConnectionString" Provider="MySql.Data.MySqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Proov123.Properties.Settings.GlobalReference.Default.ConnectionString" Provider="FirebirdSql.Data.FirebirdClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="bregConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bregConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Proov123.Properties.Settings.GlobalReference.Default.bregConnectionString1" Provider="MySql.Data.MySqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="bregConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="bregConnectionString2 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Proov123.Properties.Settings.GlobalReference.Default.bregConnectionString2" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LAUAKAD_VIEWTableAdapter" GeneratorDataComponentClassName="LAUAKAD_VIEWTableAdapter" Name="LAUAKAD_VIEW" UserDataComponentName="LAUAKAD_VIEWTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bregConnectionString2 (Settings)" DbObjectName="breg.LAUAKAD_VIEW" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        KOOD_ID, KOOD, GRADE, RYHM, SEERIANUMBER, PROFIT_NIMI, PROFIT_KIRJELDUS, KOGUS, LAONIMI, OMAHIND, BAASHIND, SPETSHIND, EUR_HIND, EST_HIND, ID, AEG, BKOOD, TKOOD, MAKE, MODEL, CPU_TYPE, 
+                         CPU_SPEED, CPU_VENDOR, CPU_MAXSPEED, IPS, DISPLAY_TYPE, MOUSE, MODEM, COM_PORT, EXPRESS_CARD, E_SATA, DISPLAY_PORT, VGA, DVI, FINGER, AC_ADAPTER, WARRANTY, `CASE`, MEMORY, MEMORY_GB, 
+                         MEMORY_BANKS, MEMORY_TYPE, HDD_SUM, HDD_COUNT, HDD_PRODUCTS, HDD_BUS, HDD_SSD, GRAPH, HDMI, MEDIA, WEBCAM, ETHERNET, WIRELESS, BLUETOOTH, MOTHERBOARD, KBD_LIGHT, KBD_LAYOUT, 
+                         USB, MAXRESO, DISPLAY, BATTERY_NEW, BATTERY_TIME, BATTERY, BATTERY_REMAIN, LICENSE, HDD_NEW, PASSWD_POWERON, PASSWD_ADMIN, COMMENT, REGISTRATOR_ID, SERIAL, FIREWIRE, THUNDERBOLT, 
+                         XML, SMARTCARD, SDCARD, TIME_COMPUTED, ARVENUMBER, PARTII_ID, UID, UTIME, KASUTAJANIMI, PARTII, BATCH, KPV, PROFIT_TR_ID
+FROM            LAUAKAD_VIEW</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="KOOD_ID" DataSetColumn="KOOD_ID" />
+              <Mapping SourceColumn="KOOD" DataSetColumn="KOOD" />
+              <Mapping SourceColumn="GRADE" DataSetColumn="GRADE" />
+              <Mapping SourceColumn="RYHM" DataSetColumn="RYHM" />
+              <Mapping SourceColumn="SEERIANUMBER" DataSetColumn="SEERIANUMBER" />
+              <Mapping SourceColumn="PROFIT_NIMI" DataSetColumn="PROFIT_NIMI" />
+              <Mapping SourceColumn="PROFIT_KIRJELDUS" DataSetColumn="PROFIT_KIRJELDUS" />
+              <Mapping SourceColumn="KOGUS" DataSetColumn="KOGUS" />
+              <Mapping SourceColumn="LAONIMI" DataSetColumn="LAONIMI" />
+              <Mapping SourceColumn="OMAHIND" DataSetColumn="OMAHIND" />
+              <Mapping SourceColumn="BAASHIND" DataSetColumn="BAASHIND" />
+              <Mapping SourceColumn="SPETSHIND" DataSetColumn="SPETSHIND" />
+              <Mapping SourceColumn="EUR_HIND" DataSetColumn="EUR_HIND" />
+              <Mapping SourceColumn="EST_HIND" DataSetColumn="EST_HIND" />
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="AEG" DataSetColumn="AEG" />
+              <Mapping SourceColumn="BKOOD" DataSetColumn="BKOOD" />
+              <Mapping SourceColumn="TKOOD" DataSetColumn="TKOOD" />
+              <Mapping SourceColumn="MAKE" DataSetColumn="MAKE" />
+              <Mapping SourceColumn="MODEL" DataSetColumn="MODEL" />
+              <Mapping SourceColumn="CPU_TYPE" DataSetColumn="CPU_TYPE" />
+              <Mapping SourceColumn="CPU_SPEED" DataSetColumn="CPU_SPEED" />
+              <Mapping SourceColumn="CPU_VENDOR" DataSetColumn="CPU_VENDOR" />
+              <Mapping SourceColumn="CPU_MAXSPEED" DataSetColumn="CPU_MAXSPEED" />
+              <Mapping SourceColumn="IPS" DataSetColumn="IPS" />
+              <Mapping SourceColumn="DISPLAY_TYPE" DataSetColumn="DISPLAY_TYPE" />
+              <Mapping SourceColumn="MOUSE" DataSetColumn="MOUSE" />
+              <Mapping SourceColumn="MODEM" DataSetColumn="MODEM" />
+              <Mapping SourceColumn="COM_PORT" DataSetColumn="COM_PORT" />
+              <Mapping SourceColumn="EXPRESS_CARD" DataSetColumn="EXPRESS_CARD" />
+              <Mapping SourceColumn="E_SATA" DataSetColumn="E_SATA" />
+              <Mapping SourceColumn="DISPLAY_PORT" DataSetColumn="DISPLAY_PORT" />
+              <Mapping SourceColumn="VGA" DataSetColumn="VGA" />
+              <Mapping SourceColumn="DVI" DataSetColumn="DVI" />
+              <Mapping SourceColumn="FINGER" DataSetColumn="FINGER" />
+              <Mapping SourceColumn="AC_ADAPTER" DataSetColumn="AC_ADAPTER" />
+              <Mapping SourceColumn="WARRANTY" DataSetColumn="WARRANTY" />
+              <Mapping SourceColumn="CASE" DataSetColumn="CASE" />
+              <Mapping SourceColumn="MEMORY" DataSetColumn="MEMORY" />
+              <Mapping SourceColumn="MEMORY_GB" DataSetColumn="MEMORY_GB" />
+              <Mapping SourceColumn="MEMORY_BANKS" DataSetColumn="MEMORY_BANKS" />
+              <Mapping SourceColumn="MEMORY_TYPE" DataSetColumn="MEMORY_TYPE" />
+              <Mapping SourceColumn="HDD_SUM" DataSetColumn="HDD_SUM" />
+              <Mapping SourceColumn="HDD_COUNT" DataSetColumn="HDD_COUNT" />
+              <Mapping SourceColumn="HDD_PRODUCTS" DataSetColumn="HDD_PRODUCTS" />
+              <Mapping SourceColumn="HDD_BUS" DataSetColumn="HDD_BUS" />
+              <Mapping SourceColumn="HDD_SSD" DataSetColumn="HDD_SSD" />
+              <Mapping SourceColumn="GRAPH" DataSetColumn="GRAPH" />
+              <Mapping SourceColumn="HDMI" DataSetColumn="HDMI" />
+              <Mapping SourceColumn="MEDIA" DataSetColumn="MEDIA" />
+              <Mapping SourceColumn="WEBCAM" DataSetColumn="WEBCAM" />
+              <Mapping SourceColumn="ETHERNET" DataSetColumn="ETHERNET" />
+              <Mapping SourceColumn="WIRELESS" DataSetColumn="WIRELESS" />
+              <Mapping SourceColumn="BLUETOOTH" DataSetColumn="BLUETOOTH" />
+              <Mapping SourceColumn="MOTHERBOARD" DataSetColumn="MOTHERBOARD" />
+              <Mapping SourceColumn="KBD_LIGHT" DataSetColumn="KBD_LIGHT" />
+              <Mapping SourceColumn="KBD_LAYOUT" DataSetColumn="KBD_LAYOUT" />
+              <Mapping SourceColumn="USB" DataSetColumn="USB" />
+              <Mapping SourceColumn="MAXRESO" DataSetColumn="MAXRESO" />
+              <Mapping SourceColumn="DISPLAY" DataSetColumn="DISPLAY" />
+              <Mapping SourceColumn="BATTERY_NEW" DataSetColumn="BATTERY_NEW" />
+              <Mapping SourceColumn="BATTERY_TIME" DataSetColumn="BATTERY_TIME" />
+              <Mapping SourceColumn="BATTERY" DataSetColumn="BATTERY" />
+              <Mapping SourceColumn="BATTERY_REMAIN" DataSetColumn="BATTERY_REMAIN" />
+              <Mapping SourceColumn="LICENSE" DataSetColumn="LICENSE" />
+              <Mapping SourceColumn="HDD_NEW" DataSetColumn="HDD_NEW" />
+              <Mapping SourceColumn="PASSWD_POWERON" DataSetColumn="PASSWD_POWERON" />
+              <Mapping SourceColumn="PASSWD_ADMIN" DataSetColumn="PASSWD_ADMIN" />
+              <Mapping SourceColumn="COMMENT" DataSetColumn="COMMENT" />
+              <Mapping SourceColumn="REGISTRATOR_ID" DataSetColumn="REGISTRATOR_ID" />
+              <Mapping SourceColumn="SERIAL" DataSetColumn="SERIAL" />
+              <Mapping SourceColumn="FIREWIRE" DataSetColumn="FIREWIRE" />
+              <Mapping SourceColumn="THUNDERBOLT" DataSetColumn="THUNDERBOLT" />
+              <Mapping SourceColumn="XML" DataSetColumn="XML" />
+              <Mapping SourceColumn="SMARTCARD" DataSetColumn="SMARTCARD" />
+              <Mapping SourceColumn="SDCARD" DataSetColumn="SDCARD" />
+              <Mapping SourceColumn="TIME_COMPUTED" DataSetColumn="TIME_COMPUTED" />
+              <Mapping SourceColumn="ARVENUMBER" DataSetColumn="ARVENUMBER" />
+              <Mapping SourceColumn="PARTII_ID" DataSetColumn="PARTII_ID" />
+              <Mapping SourceColumn="UID" DataSetColumn="UID" />
+              <Mapping SourceColumn="UTIME" DataSetColumn="UTIME" />
+              <Mapping SourceColumn="KASUTAJANIMI" DataSetColumn="KASUTAJANIMI" />
+              <Mapping SourceColumn="PARTII" DataSetColumn="PARTII" />
+              <Mapping SourceColumn="BATCH" DataSetColumn="BATCH" />
+              <Mapping SourceColumn="KPV" DataSetColumn="KPV" />
+              <Mapping SourceColumn="PROFIT_TR_ID" DataSetColumn="PROFIT_TR_ID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="AMETIDTableAdapter" GeneratorDataComponentClassName="AMETIDTableAdapter" Name="AMETID" UserDataComponentName="AMETIDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ConnectionString (Settings)" DbObjectName="AMETID" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM "AMETID" WHERE (((@IsNull_ID = 1 AND "ID" IS NULL) OR ("ID" = @Original_ID)) AND ((@IsNull_NIMI = 1 AND "NIMI" IS NULL) OR ("NIMI" = @Original_NIMI)) AND ((@IsNull_SELETUS = 1 AND "SELETUS" IS NULL) OR ("SELETUS" = @Original_SELETUS)) AND ((@IsNull_KOOD = 1 AND "KOOD" IS NULL) OR ("KOOD" = @Original_KOOD)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ID" Precision="0" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NIMI" Precision="0" Scale="0" Size="100" SourceColumn="NIMI" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_NIMI" Precision="0" Scale="0" Size="100" SourceColumn="NIMI" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SELETUS" Precision="0" Scale="0" Size="255" SourceColumn="SELETUS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_SELETUS" Precision="0" Scale="0" Size="255" SourceColumn="SELETUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_KOOD" Precision="0" Scale="0" Size="20" SourceColumn="KOOD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_KOOD" Precision="0" Scale="0" Size="20" SourceColumn="KOOD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO "AMETID" ("ID", "NIMI", "SELETUS", "KOOD") VALUES (@ID, @NIMI, @SELETUS, @KOOD)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@NIMI" Precision="0" Scale="0" Size="100" SourceColumn="NIMI" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SELETUS" Precision="0" Scale="0" Size="255" SourceColumn="SELETUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@KOOD" Precision="0" Scale="0" Size="20" SourceColumn="KOOD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT "ID", "NIMI", "SELETUS", "KOOD" FROM "AMETID"</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE "AMETID" SET "ID" = @ID, "NIMI" = @NIMI, "SELETUS" = @SELETUS, "KOOD" = @KOOD WHERE (((@IsNull_ID = 1 AND "ID" IS NULL) OR ("ID" = @Original_ID)) AND ((@IsNull_NIMI = 1 AND "NIMI" IS NULL) OR ("NIMI" = @Original_NIMI)) AND ((@IsNull_SELETUS = 1 AND "SELETUS" IS NULL) OR ("SELETUS" = @Original_SELETUS)) AND ((@IsNull_KOOD = 1 AND "KOOD" IS NULL) OR ("KOOD" = @Original_KOOD)))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ID" Precision="0" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@NIMI" Precision="0" Scale="0" Size="100" SourceColumn="NIMI" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SELETUS" Precision="0" Scale="0" Size="255" SourceColumn="SELETUS" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@KOOD" Precision="0" Scale="0" Size="20" SourceColumn="KOOD" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_ID" Precision="0" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_ID" Precision="0" Scale="0" Size="4" SourceColumn="ID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_NIMI" Precision="0" Scale="0" Size="100" SourceColumn="NIMI" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_NIMI" Precision="0" Scale="0" Size="100" SourceColumn="NIMI" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_SELETUS" Precision="0" Scale="0" Size="255" SourceColumn="SELETUS" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_SELETUS" Precision="0" Scale="0" Size="255" SourceColumn="SELETUS" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_KOOD" Precision="0" Scale="0" Size="20" SourceColumn="KOOD" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Original_KOOD" Precision="0" Scale="0" Size="20" SourceColumn="KOOD" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="NIMI" DataSetColumn="NIMI" />
+              <Mapping SourceColumn="SELETUS" DataSetColumn="SELETUS" />
+              <Mapping SourceColumn="KOOD" DataSetColumn="KOOD" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="MOLLIDE_MUDELIDTableAdapter" GeneratorDataComponentClassName="MOLLIDE_MUDELIDTableAdapter" Name="MOLLIDE_MUDELID" UserDataComponentName="MOLLIDE_MUDELIDTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="bregConnectionString (Settings)" DbObjectName="breg.MOLLIDE_MUDELID" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT `MODEL_NAME`, `MAKE`, `DISPLAY`, `KOKKU` FROM `breg`.`MOLLIDE_MUDELID`</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MODEL_NAME" DataSetColumn="MODEL_NAME" />
+              <Mapping SourceColumn="MAKE" DataSetColumn="MAKE" />
+              <Mapping SourceColumn="DISPLAY" DataSetColumn="DISPLAY" />
+              <Mapping SourceColumn="KOKKU" DataSetColumn="KOKKU" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetbreg" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetbreg" msprop:Generator_UserDSName="DataSetbreg">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="LAUAKAD_VIEW" msprop:Generator_TableClassName="LAUAKAD_VIEWDataTable" msprop:Generator_TableVarName="tableLAUAKAD_VIEW" msprop:Generator_TablePropName="LAUAKAD_VIEW" msprop:Generator_RowDeletingName="LAUAKAD_VIEWRowDeleting" msprop:Generator_RowChangingName="LAUAKAD_VIEWRowChanging" msprop:Generator_RowEvHandlerName="LAUAKAD_VIEWRowChangeEventHandler" msprop:Generator_RowDeletedName="LAUAKAD_VIEWRowDeleted" msprop:Generator_UserTableName="LAUAKAD_VIEW" msprop:Generator_RowChangedName="LAUAKAD_VIEWRowChanged" msprop:Generator_RowEvArgName="LAUAKAD_VIEWRowChangeEvent" msprop:Generator_RowClassName="LAUAKAD_VIEWRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="KOOD_ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnKOOD_ID" msprop:Generator_ColumnPropNameInRow="KOOD_ID" msprop:Generator_ColumnPropNameInTable="KOOD_IDColumn" msprop:Generator_UserColumnName="KOOD_ID" type="xs:int" />
+              <xs:element name="KOOD" msprop:Generator_ColumnVarNameInTable="columnKOOD" msprop:Generator_ColumnPropNameInRow="KOOD" msprop:Generator_ColumnPropNameInTable="KOODColumn" msprop:Generator_UserColumnName="KOOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GRADE" msprop:Generator_ColumnVarNameInTable="columnGRADE" msprop:Generator_ColumnPropNameInRow="GRADE" msprop:Generator_ColumnPropNameInTable="GRADEColumn" msprop:Generator_UserColumnName="GRADE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RYHM" msprop:Generator_ColumnVarNameInTable="columnRYHM" msprop:Generator_ColumnPropNameInRow="RYHM" msprop:Generator_ColumnPropNameInTable="RYHMColumn" msprop:Generator_UserColumnName="RYHM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SEERIANUMBER" msprop:Generator_ColumnVarNameInTable="columnSEERIANUMBER" msprop:Generator_ColumnPropNameInRow="SEERIANUMBER" msprop:Generator_ColumnPropNameInTable="SEERIANUMBERColumn" msprop:Generator_UserColumnName="SEERIANUMBER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROFIT_NIMI" msprop:Generator_ColumnVarNameInTable="columnPROFIT_NIMI" msprop:Generator_ColumnPropNameInRow="PROFIT_NIMI" msprop:Generator_ColumnPropNameInTable="PROFIT_NIMIColumn" msprop:Generator_UserColumnName="PROFIT_NIMI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PROFIT_KIRJELDUS" msprop:Generator_ColumnVarNameInTable="columnPROFIT_KIRJELDUS" msprop:Generator_ColumnPropNameInRow="PROFIT_KIRJELDUS" msprop:Generator_ColumnPropNameInTable="PROFIT_KIRJELDUSColumn" msprop:Generator_UserColumnName="PROFIT_KIRJELDUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOGUS" msprop:Generator_ColumnVarNameInTable="columnKOGUS" msprop:Generator_ColumnPropNameInRow="KOGUS" msprop:Generator_ColumnPropNameInTable="KOGUSColumn" msprop:Generator_UserColumnName="KOGUS" type="xs:decimal" minOccurs="0" />
+              <xs:element name="LAONIMI" msprop:Generator_ColumnVarNameInTable="columnLAONIMI" msprop:Generator_ColumnPropNameInRow="LAONIMI" msprop:Generator_ColumnPropNameInTable="LAONIMIColumn" msprop:Generator_UserColumnName="LAONIMI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="OMAHIND" msprop:Generator_ColumnVarNameInTable="columnOMAHIND" msprop:Generator_ColumnPropNameInRow="OMAHIND" msprop:Generator_ColumnPropNameInTable="OMAHINDColumn" msprop:Generator_UserColumnName="OMAHIND" type="xs:decimal" minOccurs="0" />
+              <xs:element name="BAASHIND" msprop:Generator_ColumnVarNameInTable="columnBAASHIND" msprop:Generator_ColumnPropNameInRow="BAASHIND" msprop:Generator_ColumnPropNameInTable="BAASHINDColumn" msprop:Generator_UserColumnName="BAASHIND" type="xs:decimal" minOccurs="0" />
+              <xs:element name="SPETSHIND" msprop:Generator_ColumnVarNameInTable="columnSPETSHIND" msprop:Generator_ColumnPropNameInRow="SPETSHIND" msprop:Generator_ColumnPropNameInTable="SPETSHINDColumn" msprop:Generator_UserColumnName="SPETSHIND" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EUR_HIND" msprop:Generator_ColumnVarNameInTable="columnEUR_HIND" msprop:Generator_ColumnPropNameInRow="EUR_HIND" msprop:Generator_ColumnPropNameInTable="EUR_HINDColumn" msprop:Generator_UserColumnName="EUR_HIND" type="xs:decimal" minOccurs="0" />
+              <xs:element name="EST_HIND" msprop:Generator_ColumnVarNameInTable="columnEST_HIND" msprop:Generator_ColumnPropNameInRow="EST_HIND" msprop:Generator_ColumnPropNameInTable="EST_HINDColumn" msprop:Generator_UserColumnName="EST_HIND" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:long" minOccurs="0" />
+              <xs:element name="AEG" msprop:Generator_ColumnVarNameInTable="columnAEG" msprop:Generator_ColumnPropNameInRow="AEG" msprop:Generator_ColumnPropNameInTable="AEGColumn" msprop:Generator_UserColumnName="AEG" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="BKOOD" msprop:Generator_ColumnVarNameInTable="columnBKOOD" msprop:Generator_ColumnPropNameInRow="BKOOD" msprop:Generator_ColumnPropNameInTable="BKOODColumn" msprop:Generator_UserColumnName="BKOOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="13" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TKOOD" msprop:Generator_ColumnVarNameInTable="columnTKOOD" msprop:Generator_ColumnPropNameInRow="TKOOD" msprop:Generator_ColumnPropNameInTable="TKOODColumn" msprop:Generator_UserColumnName="TKOOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAKE" msprop:Generator_ColumnVarNameInTable="columnMAKE" msprop:Generator_ColumnPropNameInRow="MAKE" msprop:Generator_ColumnPropNameInTable="MAKEColumn" msprop:Generator_UserColumnName="MAKE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MODEL" msprop:Generator_ColumnVarNameInTable="columnMODEL" msprop:Generator_ColumnPropNameInRow="MODEL" msprop:Generator_ColumnPropNameInTable="MODELColumn" msprop:Generator_UserColumnName="MODEL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPU_TYPE" msprop:Generator_ColumnVarNameInTable="columnCPU_TYPE" msprop:Generator_ColumnPropNameInRow="CPU_TYPE" msprop:Generator_ColumnPropNameInTable="CPU_TYPEColumn" msprop:Generator_UserColumnName="CPU_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPU_SPEED" msprop:Generator_ColumnVarNameInTable="columnCPU_SPEED" msprop:Generator_ColumnPropNameInRow="CPU_SPEED" msprop:Generator_ColumnPropNameInTable="CPU_SPEEDColumn" msprop:Generator_UserColumnName="CPU_SPEED" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPU_VENDOR" msprop:Generator_ColumnVarNameInTable="columnCPU_VENDOR" msprop:Generator_ColumnPropNameInRow="CPU_VENDOR" msprop:Generator_ColumnPropNameInTable="CPU_VENDORColumn" msprop:Generator_UserColumnName="CPU_VENDOR" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CPU_MAXSPEED" msprop:Generator_ColumnVarNameInTable="columnCPU_MAXSPEED" msprop:Generator_ColumnPropNameInRow="CPU_MAXSPEED" msprop:Generator_ColumnPropNameInTable="CPU_MAXSPEEDColumn" msprop:Generator_UserColumnName="CPU_MAXSPEED" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="IPS" msprop:Generator_ColumnVarNameInTable="columnIPS" msprop:Generator_ColumnPropNameInRow="IPS" msprop:Generator_ColumnPropNameInTable="IPSColumn" msprop:Generator_UserColumnName="IPS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISPLAY_TYPE" msprop:Generator_ColumnVarNameInTable="columnDISPLAY_TYPE" msprop:Generator_ColumnPropNameInRow="DISPLAY_TYPE" msprop:Generator_ColumnPropNameInTable="DISPLAY_TYPEColumn" msprop:Generator_UserColumnName="DISPLAY_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MOUSE" msprop:Generator_ColumnVarNameInTable="columnMOUSE" msprop:Generator_ColumnPropNameInRow="MOUSE" msprop:Generator_ColumnPropNameInTable="MOUSEColumn" msprop:Generator_UserColumnName="MOUSE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MODEM" msprop:Generator_ColumnVarNameInTable="columnMODEM" msprop:Generator_ColumnPropNameInRow="MODEM" msprop:Generator_ColumnPropNameInTable="MODEMColumn" msprop:Generator_UserColumnName="MODEM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COM_PORT" msprop:Generator_ColumnVarNameInTable="columnCOM_PORT" msprop:Generator_ColumnPropNameInRow="COM_PORT" msprop:Generator_ColumnPropNameInTable="COM_PORTColumn" msprop:Generator_UserColumnName="COM_PORT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EXPRESS_CARD" msprop:Generator_ColumnVarNameInTable="columnEXPRESS_CARD" msprop:Generator_ColumnPropNameInRow="EXPRESS_CARD" msprop:Generator_ColumnPropNameInTable="EXPRESS_CARDColumn" msprop:Generator_UserColumnName="EXPRESS_CARD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="E_SATA" msprop:Generator_ColumnVarNameInTable="columnE_SATA" msprop:Generator_ColumnPropNameInRow="E_SATA" msprop:Generator_ColumnPropNameInTable="E_SATAColumn" msprop:Generator_UserColumnName="E_SATA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISPLAY_PORT" msprop:Generator_ColumnVarNameInTable="columnDISPLAY_PORT" msprop:Generator_ColumnPropNameInRow="DISPLAY_PORT" msprop:Generator_ColumnPropNameInTable="DISPLAY_PORTColumn" msprop:Generator_UserColumnName="DISPLAY_PORT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VGA" msprop:Generator_ColumnVarNameInTable="columnVGA" msprop:Generator_ColumnPropNameInRow="VGA" msprop:Generator_ColumnPropNameInTable="VGAColumn" msprop:Generator_UserColumnName="VGA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DVI" msprop:Generator_ColumnVarNameInTable="columnDVI" msprop:Generator_ColumnPropNameInRow="DVI" msprop:Generator_ColumnPropNameInTable="DVIColumn" msprop:Generator_UserColumnName="DVI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FINGER" msprop:Generator_ColumnVarNameInTable="columnFINGER" msprop:Generator_ColumnPropNameInRow="FINGER" msprop:Generator_ColumnPropNameInTable="FINGERColumn" msprop:Generator_UserColumnName="FINGER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AC_ADAPTER" msprop:Generator_ColumnVarNameInTable="columnAC_ADAPTER" msprop:Generator_ColumnPropNameInRow="AC_ADAPTER" msprop:Generator_ColumnPropNameInTable="AC_ADAPTERColumn" msprop:Generator_UserColumnName="AC_ADAPTER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WARRANTY" msprop:Generator_ColumnVarNameInTable="columnWARRANTY" msprop:Generator_ColumnPropNameInRow="WARRANTY" msprop:Generator_ColumnPropNameInTable="WARRANTYColumn" msprop:Generator_UserColumnName="WARRANTY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="CASE" msprop:Generator_ColumnVarNameInTable="columnCASE" msprop:Generator_ColumnPropNameInRow="CASE" msprop:Generator_ColumnPropNameInTable="CASEColumn" msprop:Generator_UserColumnName="CASE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MEMORY" msprop:Generator_ColumnVarNameInTable="columnMEMORY" msprop:Generator_ColumnPropNameInRow="MEMORY" msprop:Generator_ColumnPropNameInTable="MEMORYColumn" msprop:Generator_UserColumnName="MEMORY" type="xs:int" minOccurs="0" />
+              <xs:element name="MEMORY_GB" msprop:Generator_ColumnVarNameInTable="columnMEMORY_GB" msprop:Generator_ColumnPropNameInRow="MEMORY_GB" msprop:Generator_ColumnPropNameInTable="MEMORY_GBColumn" msprop:Generator_UserColumnName="MEMORY_GB" type="xs:int" minOccurs="0" />
+              <xs:element name="MEMORY_BANKS" msprop:Generator_ColumnVarNameInTable="columnMEMORY_BANKS" msprop:Generator_ColumnPropNameInRow="MEMORY_BANKS" msprop:Generator_ColumnPropNameInTable="MEMORY_BANKSColumn" msprop:Generator_UserColumnName="MEMORY_BANKS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MEMORY_TYPE" msprop:Generator_ColumnVarNameInTable="columnMEMORY_TYPE" msprop:Generator_ColumnPropNameInRow="MEMORY_TYPE" msprop:Generator_ColumnPropNameInTable="MEMORY_TYPEColumn" msprop:Generator_UserColumnName="MEMORY_TYPE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HDD_SUM" msprop:Generator_ColumnVarNameInTable="columnHDD_SUM" msprop:Generator_ColumnPropNameInRow="HDD_SUM" msprop:Generator_ColumnPropNameInTable="HDD_SUMColumn" msprop:Generator_UserColumnName="HDD_SUM" type="xs:int" minOccurs="0" />
+              <xs:element name="HDD_COUNT" msprop:Generator_ColumnVarNameInTable="columnHDD_COUNT" msprop:Generator_ColumnPropNameInRow="HDD_COUNT" msprop:Generator_ColumnPropNameInTable="HDD_COUNTColumn" msprop:Generator_UserColumnName="HDD_COUNT" type="xs:int" minOccurs="0" />
+              <xs:element name="HDD_PRODUCTS" msprop:Generator_ColumnVarNameInTable="columnHDD_PRODUCTS" msprop:Generator_ColumnPropNameInRow="HDD_PRODUCTS" msprop:Generator_ColumnPropNameInTable="HDD_PRODUCTSColumn" msprop:Generator_UserColumnName="HDD_PRODUCTS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HDD_BUS" msprop:Generator_ColumnVarNameInTable="columnHDD_BUS" msprop:Generator_ColumnPropNameInRow="HDD_BUS" msprop:Generator_ColumnPropNameInTable="HDD_BUSColumn" msprop:Generator_UserColumnName="HDD_BUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HDD_SSD" msprop:Generator_ColumnVarNameInTable="columnHDD_SSD" msprop:Generator_ColumnPropNameInRow="HDD_SSD" msprop:Generator_ColumnPropNameInTable="HDD_SSDColumn" msprop:Generator_UserColumnName="HDD_SSD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GRAPH" msprop:Generator_ColumnVarNameInTable="columnGRAPH" msprop:Generator_ColumnPropNameInRow="GRAPH" msprop:Generator_ColumnPropNameInTable="GRAPHColumn" msprop:Generator_UserColumnName="GRAPH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HDMI" msprop:Generator_ColumnVarNameInTable="columnHDMI" msprop:Generator_ColumnPropNameInRow="HDMI" msprop:Generator_ColumnPropNameInTable="HDMIColumn" msprop:Generator_UserColumnName="HDMI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MEDIA" msprop:Generator_ColumnVarNameInTable="columnMEDIA" msprop:Generator_ColumnPropNameInRow="MEDIA" msprop:Generator_ColumnPropNameInTable="MEDIAColumn" msprop:Generator_UserColumnName="MEDIA" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WEBCAM" msprop:Generator_ColumnVarNameInTable="columnWEBCAM" msprop:Generator_ColumnPropNameInRow="WEBCAM" msprop:Generator_ColumnPropNameInTable="WEBCAMColumn" msprop:Generator_UserColumnName="WEBCAM" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ETHERNET" msprop:Generator_ColumnVarNameInTable="columnETHERNET" msprop:Generator_ColumnPropNameInRow="ETHERNET" msprop:Generator_ColumnPropNameInTable="ETHERNETColumn" msprop:Generator_UserColumnName="ETHERNET" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="WIRELESS" msprop:Generator_ColumnVarNameInTable="columnWIRELESS" msprop:Generator_ColumnPropNameInRow="WIRELESS" msprop:Generator_ColumnPropNameInTable="WIRELESSColumn" msprop:Generator_UserColumnName="WIRELESS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BLUETOOTH" msprop:Generator_ColumnVarNameInTable="columnBLUETOOTH" msprop:Generator_ColumnPropNameInRow="BLUETOOTH" msprop:Generator_ColumnPropNameInTable="BLUETOOTHColumn" msprop:Generator_UserColumnName="BLUETOOTH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MOTHERBOARD" msprop:Generator_ColumnVarNameInTable="columnMOTHERBOARD" msprop:Generator_ColumnPropNameInRow="MOTHERBOARD" msprop:Generator_ColumnPropNameInTable="MOTHERBOARDColumn" msprop:Generator_UserColumnName="MOTHERBOARD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KBD_LIGHT" msprop:Generator_ColumnVarNameInTable="columnKBD_LIGHT" msprop:Generator_ColumnPropNameInRow="KBD_LIGHT" msprop:Generator_ColumnPropNameInTable="KBD_LIGHTColumn" msprop:Generator_UserColumnName="KBD_LIGHT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KBD_LAYOUT" msprop:Generator_ColumnVarNameInTable="columnKBD_LAYOUT" msprop:Generator_ColumnPropNameInRow="KBD_LAYOUT" msprop:Generator_ColumnPropNameInTable="KBD_LAYOUTColumn" msprop:Generator_UserColumnName="KBD_LAYOUT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="USB" msprop:Generator_ColumnVarNameInTable="columnUSB" msprop:Generator_ColumnPropNameInRow="USB" msprop:Generator_ColumnPropNameInTable="USBColumn" msprop:Generator_UserColumnName="USB" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAXRESO" msprop:Generator_ColumnVarNameInTable="columnMAXRESO" msprop:Generator_ColumnPropNameInRow="MAXRESO" msprop:Generator_ColumnPropNameInTable="MAXRESOColumn" msprop:Generator_UserColumnName="MAXRESO" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISPLAY" msprop:Generator_ColumnVarNameInTable="columnDISPLAY" msprop:Generator_ColumnPropNameInRow="DISPLAY" msprop:Generator_ColumnPropNameInTable="DISPLAYColumn" msprop:Generator_UserColumnName="DISPLAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BATTERY_NEW" msprop:Generator_ColumnVarNameInTable="columnBATTERY_NEW" msprop:Generator_ColumnPropNameInRow="BATTERY_NEW" msprop:Generator_ColumnPropNameInTable="BATTERY_NEWColumn" msprop:Generator_UserColumnName="BATTERY_NEW" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="25" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BATTERY_TIME" msprop:Generator_ColumnVarNameInTable="columnBATTERY_TIME" msprop:Generator_ColumnPropNameInRow="BATTERY_TIME" msprop:Generator_ColumnPropNameInTable="BATTERY_TIMEColumn" msprop:Generator_UserColumnName="BATTERY_TIME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BATTERY" msprop:Generator_ColumnVarNameInTable="columnBATTERY" msprop:Generator_ColumnPropNameInRow="BATTERY" msprop:Generator_ColumnPropNameInTable="BATTERYColumn" msprop:Generator_UserColumnName="BATTERY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BATTERY_REMAIN" msprop:Generator_ColumnVarNameInTable="columnBATTERY_REMAIN" msprop:Generator_ColumnPropNameInRow="BATTERY_REMAIN" msprop:Generator_ColumnPropNameInTable="BATTERY_REMAINColumn" msprop:Generator_UserColumnName="BATTERY_REMAIN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LICENSE" msprop:Generator_ColumnVarNameInTable="columnLICENSE" msprop:Generator_ColumnPropNameInRow="LICENSE" msprop:Generator_ColumnPropNameInTable="LICENSEColumn" msprop:Generator_UserColumnName="LICENSE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HDD_NEW" msprop:Generator_ColumnVarNameInTable="columnHDD_NEW" msprop:Generator_ColumnPropNameInRow="HDD_NEW" msprop:Generator_ColumnPropNameInTable="HDD_NEWColumn" msprop:Generator_UserColumnName="HDD_NEW" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PASSWD_POWERON" msprop:Generator_ColumnVarNameInTable="columnPASSWD_POWERON" msprop:Generator_ColumnPropNameInRow="PASSWD_POWERON" msprop:Generator_ColumnPropNameInTable="PASSWD_POWERONColumn" msprop:Generator_UserColumnName="PASSWD_POWERON" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PASSWD_ADMIN" msprop:Generator_ColumnVarNameInTable="columnPASSWD_ADMIN" msprop:Generator_ColumnPropNameInRow="PASSWD_ADMIN" msprop:Generator_ColumnPropNameInTable="PASSWD_ADMINColumn" msprop:Generator_UserColumnName="PASSWD_ADMIN" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="COMMENT" msprop:Generator_ColumnVarNameInTable="columnCOMMENT" msprop:Generator_ColumnPropNameInRow="COMMENT" msprop:Generator_ColumnPropNameInTable="COMMENTColumn" msprop:Generator_UserColumnName="COMMENT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="REGISTRATOR_ID" msprop:Generator_ColumnVarNameInTable="columnREGISTRATOR_ID" msprop:Generator_ColumnPropNameInRow="REGISTRATOR_ID" msprop:Generator_ColumnPropNameInTable="REGISTRATOR_IDColumn" msprop:Generator_UserColumnName="REGISTRATOR_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="SERIAL" msprop:Generator_ColumnVarNameInTable="columnSERIAL" msprop:Generator_ColumnPropNameInRow="SERIAL" msprop:Generator_ColumnPropNameInTable="SERIALColumn" msprop:Generator_UserColumnName="SERIAL" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="FIREWIRE" msprop:Generator_ColumnVarNameInTable="columnFIREWIRE" msprop:Generator_ColumnPropNameInRow="FIREWIRE" msprop:Generator_ColumnPropNameInTable="FIREWIREColumn" msprop:Generator_UserColumnName="FIREWIRE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="40" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="THUNDERBOLT" msprop:Generator_ColumnVarNameInTable="columnTHUNDERBOLT" msprop:Generator_ColumnPropNameInRow="THUNDERBOLT" msprop:Generator_ColumnPropNameInTable="THUNDERBOLTColumn" msprop:Generator_UserColumnName="THUNDERBOLT" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="XML" msprop:Generator_ColumnVarNameInTable="columnXML" msprop:Generator_ColumnPropNameInRow="XML" msprop:Generator_ColumnPropNameInTable="XMLColumn" msprop:Generator_UserColumnName="XML" type="xs:string" minOccurs="0" />
+              <xs:element name="SMARTCARD" msprop:Generator_ColumnVarNameInTable="columnSMARTCARD" msprop:Generator_ColumnPropNameInRow="SMARTCARD" msprop:Generator_ColumnPropNameInTable="SMARTCARDColumn" msprop:Generator_UserColumnName="SMARTCARD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SDCARD" msprop:Generator_ColumnVarNameInTable="columnSDCARD" msprop:Generator_ColumnPropNameInRow="SDCARD" msprop:Generator_ColumnPropNameInTable="SDCARDColumn" msprop:Generator_UserColumnName="SDCARD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TIME_COMPUTED" msprop:Generator_ColumnVarNameInTable="columnTIME_COMPUTED" msprop:Generator_ColumnPropNameInRow="TIME_COMPUTED" msprop:Generator_ColumnPropNameInTable="TIME_COMPUTEDColumn" msprop:Generator_UserColumnName="TIME_COMPUTED" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ARVENUMBER" msprop:Generator_ColumnVarNameInTable="columnARVENUMBER" msprop:Generator_ColumnPropNameInRow="ARVENUMBER" msprop:Generator_ColumnPropNameInTable="ARVENUMBERColumn" msprop:Generator_UserColumnName="ARVENUMBER" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARTII_ID" msprop:Generator_ColumnVarNameInTable="columnPARTII_ID" msprop:Generator_ColumnPropNameInRow="PARTII_ID" msprop:Generator_ColumnPropNameInTable="PARTII_IDColumn" msprop:Generator_UserColumnName="PARTII_ID" type="xs:int" minOccurs="0" />
+              <xs:element name="UID" msprop:Generator_ColumnVarNameInTable="columnUID" msprop:Generator_ColumnPropNameInRow="UID" msprop:Generator_ColumnPropNameInTable="UIDColumn" msprop:Generator_UserColumnName="UID" type="xs:int" minOccurs="0" />
+              <xs:element name="UTIME" msprop:Generator_ColumnVarNameInTable="columnUTIME" msprop:Generator_ColumnPropNameInRow="UTIME" msprop:Generator_ColumnPropNameInTable="UTIMEColumn" msprop:Generator_UserColumnName="UTIME" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="KASUTAJANIMI" msprop:Generator_ColumnVarNameInTable="columnKASUTAJANIMI" msprop:Generator_ColumnPropNameInRow="KASUTAJANIMI" msprop:Generator_ColumnPropNameInTable="KASUTAJANIMIColumn" msprop:Generator_UserColumnName="KASUTAJANIMI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PARTII" msprop:Generator_ColumnVarNameInTable="columnPARTII" msprop:Generator_ColumnPropNameInRow="PARTII" msprop:Generator_ColumnPropNameInTable="PARTIIColumn" msprop:Generator_UserColumnName="PARTII" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="15" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BATCH" msprop:Generator_ColumnVarNameInTable="columnBATCH" msprop:Generator_ColumnPropNameInRow="BATCH" msprop:Generator_ColumnPropNameInTable="BATCHColumn" msprop:Generator_UserColumnName="BATCH" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KPV" msprop:Generator_ColumnVarNameInTable="columnKPV" msprop:Generator_ColumnPropNameInRow="KPV" msprop:Generator_ColumnPropNameInTable="KPVColumn" msprop:Generator_UserColumnName="KPV" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PROFIT_TR_ID" msprop:Generator_ColumnVarNameInTable="columnPROFIT_TR_ID" msprop:Generator_ColumnPropNameInRow="PROFIT_TR_ID" msprop:Generator_ColumnPropNameInTable="PROFIT_TR_IDColumn" msprop:Generator_UserColumnName="PROFIT_TR_ID" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AMETID" msprop:Generator_TableClassName="AMETIDDataTable" msprop:Generator_TableVarName="tableAMETID" msprop:Generator_TablePropName="AMETID" msprop:Generator_RowDeletingName="AMETIDRowDeleting" msprop:Generator_RowChangingName="AMETIDRowChanging" msprop:Generator_RowEvHandlerName="AMETIDRowChangeEventHandler" msprop:Generator_RowDeletedName="AMETIDRowDeleted" msprop:Generator_UserTableName="AMETID" msprop:Generator_RowChangedName="AMETIDRowChanged" msprop:Generator_RowEvArgName="AMETIDRowChangeEvent" msprop:Generator_RowClassName="AMETIDRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" minOccurs="0" />
+              <xs:element name="NIMI" msprop:Generator_ColumnVarNameInTable="columnNIMI" msprop:Generator_ColumnPropNameInRow="NIMI" msprop:Generator_ColumnPropNameInTable="NIMIColumn" msprop:Generator_UserColumnName="NIMI" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SELETUS" msprop:Generator_ColumnVarNameInTable="columnSELETUS" msprop:Generator_ColumnPropNameInRow="SELETUS" msprop:Generator_ColumnPropNameInTable="SELETUSColumn" msprop:Generator_UserColumnName="SELETUS" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOOD" msprop:Generator_ColumnVarNameInTable="columnKOOD" msprop:Generator_ColumnPropNameInRow="KOOD" msprop:Generator_ColumnPropNameInTable="KOODColumn" msprop:Generator_UserColumnName="KOOD" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MOLLIDE_MUDELID" msprop:Generator_TableClassName="MOLLIDE_MUDELIDDataTable" msprop:Generator_TableVarName="tableMOLLIDE_MUDELID" msprop:Generator_RowChangedName="MOLLIDE_MUDELIDRowChanged" msprop:Generator_TablePropName="MOLLIDE_MUDELID" msprop:Generator_RowDeletingName="MOLLIDE_MUDELIDRowDeleting" msprop:Generator_RowChangingName="MOLLIDE_MUDELIDRowChanging" msprop:Generator_RowEvHandlerName="MOLLIDE_MUDELIDRowChangeEventHandler" msprop:Generator_RowDeletedName="MOLLIDE_MUDELIDRowDeleted" msprop:Generator_RowClassName="MOLLIDE_MUDELIDRow" msprop:Generator_UserTableName="MOLLIDE_MUDELID" msprop:Generator_RowEvArgName="MOLLIDE_MUDELIDRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MODEL_NAME" msprop:Generator_ColumnVarNameInTable="columnMODEL_NAME" msprop:Generator_ColumnPropNameInRow="MODEL_NAME" msprop:Generator_ColumnPropNameInTable="MODEL_NAMEColumn" msprop:Generator_UserColumnName="MODEL_NAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MAKE" msprop:Generator_ColumnVarNameInTable="columnMAKE" msprop:Generator_ColumnPropNameInRow="MAKE" msprop:Generator_ColumnPropNameInTable="MAKEColumn" msprop:Generator_UserColumnName="MAKE" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DISPLAY" msprop:Generator_ColumnVarNameInTable="columnDISPLAY" msprop:Generator_ColumnPropNameInRow="DISPLAY" msprop:Generator_ColumnPropNameInTable="DISPLAYColumn" msprop:Generator_UserColumnName="DISPLAY" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="KOKKU" msprop:Generator_ColumnVarNameInTable="columnKOKKU" msprop:Generator_ColumnPropNameInRow="KOKKU" msprop:Generator_ColumnPropNameInTable="KOKKUColumn" msprop:Generator_UserColumnName="KOKKU" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="555" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:LAUAKAD_VIEW" />
+      <xs:field xpath="mstns:KOOD_ID" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+    <xs:unique name="AMETID_Constraint1" msdata:ConstraintName="Constraint1">
+      <xs:selector xpath=".//mstns:AMETID" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
